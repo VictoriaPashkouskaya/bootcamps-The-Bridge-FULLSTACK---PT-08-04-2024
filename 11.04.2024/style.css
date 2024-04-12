@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+    margin-right: 1in;
+    margin-left: 1in;
+
+}
+
+.container {
+    text-align: right;
+}
+
+.container p {
+    font-style: italic;
+}
+
+.container1 {
+    text-align: left;
+}
+
+.container1 p {
+    font-style: italic;
+}
+
+.li {
+    margin: 23px;
+
+}
