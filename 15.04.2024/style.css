@@ -1,0 +1,63 @@
+legend {
+    color: rgb(4, 13, 131);
+    text-shadow: 3px 3px 5px rgb(190, 186, 186);
+    border: 1px solid black;
+    font-size: 35px;
+}
+
+body {
+    background-image: url(abueletes.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f5c3f7;
+    padding: 20px;
+}
+
+fieldset {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+input,
+select,
+textarea {
+    margin-bottom: 5px;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    fieldset {
+        width: 90%;
+    }
+}
+
+#sexo_m:checked+label {
+    color: blue;
+}
+
+#sexo_f:checked+label {
+    color: rgb(250, 6, 46);
+}

@@ -1,0 +1,47 @@
+Gervasio tiene un gimnasio y le gustaría digitalizar sus horarios, así que te pide que digitalices una de sus facturas, para ver si queda convencido.
+
+
+
+Después de ver un vídeo de motivación del gran Emilio Duró, cree que hay que hacer una sección multimedia de gatitos y cascadas para poder crear ambiente antes de dar clases de Yoga.
+
+Requisitos
+⚙️ Editor de texto.
+
+⚙️ Plugin con livereload
+
+Iteraciones
+Crea el archivo index.html
+
+1.1 Sin tener consideración de los atributos rowspan y colspan, replica la factura mostrada en el enunciado con una tabla completa aquí.
+
+1.2 Agrega rowspan y colspan según convenga
+
+1.3 Agrega estilos de texto
+
+1.4 Agrega símbolos
+
+1.5 ¿Habría alguna etiqueta especial que agregar dentro de la tabla? ¡Hazlo!
+
+Crea el archivo gatitos.html
+
+2.1 Crea las secciones Imágenes, Vídeo y Sonido.
+
+2.2 Puebla cada una de las secciones con archivos o enlaces provenientes de Pixabay o Pexels
+
+Crea un bloque de navegación e inclúyelo en ambos archivos, index.html y gatitos.html
+
+3.1 Crea los enlaces que lleven a index.html y gatitos.html y te permita navegar entre las dos páginas
+
+3.2 Crea subenlaces que nos lleven a las secciones de la página gatitos.html
+
+Etiquetas necesarias
+Tablas
+
+Multimedia
+
+Enlaces
+
+Recursos adicionales
+Pexels
+
+Pixabay
