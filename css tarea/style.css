@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Set font family (Establecer familia de fuentes) */
+
+    font-size: 18px;
+    /* Set font size (Establecer tamaño de fuente) */
+
+    line-height: 1.6;
+    /* Set line height (Establecer altura de línea) */
+
+    word-spacing: 1px;
+    /* Set word spacing (Establecer espaciado entre palabras) */
+
+    word-wrap: break-word;
+    /* Word wrap when necessary (Ajustar palabra cuando sea necesario) */
+
+    writing-mode: horizontal-tb;
+    /* Writing mode (horizontal) (Modo de escritura: horizontal) */
+    background-color: aqua;
+    margin-right: 1in;
+    margin-left: 1in;
+}
+
+h1,
+h2,
+h3 {
+    font-family: monospace;
+    /* Applying font family to headings (Aplicar familia de fuentes a los encabezados) */
+    color: blueviolet;
+
+}
+
+p {
+
+    font-style: italic;
+    /* Italic font style (Estilo de fuente cursiva) */
+
+    font-weight: normal;
+    /* Normal font weight (Peso de fuente normal) */
+
+    text-align: justify;
+    /* Justify text alignment (Alinear texto justificado) */
+
+    hyphens: auto;
+    /* Hyphenation (División de palabras automática) */
+
+    text-decoration: underline;
+    /* Underline text (Subrayar texto) */
+
+    vertical-align: baseline;
+    /* Vertical alignment to baseline (Alineación vertical a la línea base) */
+}
+
+
+blockquote {
+    quotes: "«" "»";
+    /* Setting quotes for blockquote (Configurar comillas para bloque de cita) */
+}
+
+ul {
+    color: rgb(250, 4, 65);
+}
