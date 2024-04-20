@@ -1,29 +1,51 @@
 /* Estilos básicos */
 body {
-    font-family: Arial, sans-serif;
-    margin: 3px;
     padding: 25px;
     top: 10px;
     background-color: blueviolet;
-    text-align: justify;
 }
 
 h2 {
-    font-size: 25px;
-    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    text-shadow: 1px 0 0 #000,
+        0 1px 0 #000,
+        1px 1px 0 #000,
+        -1px 0 0 #000,
+        0 -1px 0 #000,
+        0px 1px 3px #000;
     color: aliceblue;
+
+}
+
+/* Common styles for text inside <p> */
+/* Increasing font size and changing font family */
+p {
+    font-family: Arial, sans-serif;
+    /* Changing the font to Arial or another sans-serif font */
+    font-size: 18px;
+    /* Increasing the font size to 18 pixels */
+    line-height: 1.5;
+    /* Setting the line height to 1.5 for readability and nice spacing */
+    margin: 4px;
+    /* Removing external margins to make the text flush with the block edges */
+    padding: 10px;
+    /* Adding internal padding to separate text from block edges */
+    text-align: justify;
 
 }
 
 /* Styles for Header */
 /* Estilos para encabezado */
 .Heder {
-    background-color: rgb(255, 72, 0);
+    background-color: rgb(226, 250, 11);
     /* Header background color */
-    border: solid;
-    border-radius: 45px;
+    border: solid 2px;
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
     padding: 20px;
     margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+    transition: box-shadow 0.3s ease;
+
 }
 
 /* Hover effects for each element */
@@ -34,7 +56,8 @@ h2 {
     /* Change background color on hover */
     transform: scale(1.05);
     /* Increase the size of the element by 5% on hover */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.5);
+
     /* Add shadow effect */
 
 }
@@ -42,21 +65,22 @@ h2 {
 /* Styles for Hero */
 /* Estilos para héroe */
 .Hero {
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(255, 187, 0);
     /* Hero background color */
     border: solid;
-    border-radius: 45px;
+    border-color: #020202;
+    border-radius: 50% 10% 50% 10%/10% 50% 10% 50%;
     padding: 20px;
     margin-bottom: 5px;
 }
 
 /* Hover for Hero */
 .Hero:hover {
-    background-color: #ffe066;
+    background-color: #0dfd0d;
     /* Change background color on hover */
     transform: scale(1.05);
     /* Increase the size of the element by 5% on hover */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     /* Add shadow effect */
 }
 
@@ -66,7 +90,7 @@ h2 {
     background-color: rgb(166, 255, 0);
     /* Content background color */
     border: solid;
-    border-radius: 45px;
+    border-radius: 50% 10% 50% 10%/10% 50% 10% 50%;
     padding: 20px;
     margin-bottom: 2px;
 }
@@ -84,17 +108,17 @@ h2 {
 /* Styles for Sidebar */
 /* Estilos para barra lateral */
 .Sidebar {
-    background-color: rgb(0, 255, 64);
+    background-color: rgb(240, 226, 26);
     /* Sidebar background color */
     border: solid;
-    border-radius: 45px;
+    border-radius: 50% 10% 50% 10%/10% 50% 10% 50%;
     padding: 20px;
     margin-bottom: 2px;
 }
 
 /* Hover for Sidebar */
 .Sidebar:hover {
-    background-color: #00ff99;
+    background-color: #00ff00;
     /* Change background color on hover */
     transform: scale(1.05);
     /* Increase the size of the element by 5% on hover */
@@ -105,10 +129,10 @@ h2 {
 /* Styles for Footer */
 /* Estilos para pie de página */
 .Footer {
-    background-color: rgb(212, 0, 255);
+    background-color: rgb(0, 255, 170);
     /* Footer background color */
     border: solid;
-    border-radius: 45px;
+    border-radius: 50% 10% 50% 10%/10% 50% 10% 50%;
     padding: 20px;
     margin-bottom: 2px;
 }
@@ -123,19 +147,32 @@ h2 {
     /* Add shadow effect */
 }
 
-
-
 /* style for móvil */
 @media only screen and (max-width: 767px) {
     .container {
+
         max-width: 100%;
         padding: 15px;
         top: 50px;
-        border: solid;
+        border: solid 1px;
+        border-color: #ff00ff;
+        border-radius: 5%;
         background-color: rgb(255, 0, 200);
-        display: flex;
-        flex-direction: column;
+        box-shadow: 0 0 10px rgba(252, 185, 1, 0.5);
+        /* Add shadow to the border */
 
+    }
+
+    h2 {
+        font-size: 55px;
+        text-shadow: 1px 0 0 #000,
+            0 1px 0 #000,
+            1px 1px 0 #000,
+            -1px 0 0 #000,
+            0 -1px 0 #000,
+            0px 1px 3px #000;
+        color: aliceblue;
+        text-align: center;
     }
 
     .content1 {
@@ -145,12 +182,13 @@ h2 {
 
 /* Styles for tablet */
 /* Estilos para tablet */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 800px) {
     .container {
         display: grid;
         grid-template-columns: 60% 38%;
         grid-template-rows: auto;
         gap: 1rem;
+        border: solid #ff00ff;
         padding: 10px;
         /* Add padding to the container */
         box-sizing: border-box;
@@ -191,11 +229,13 @@ h2 {
 @media only screen and (min-width: 1030px) and (max-width: 2023px) {
     .container {
         display: grid;
-        grid-template-columns: 70% 35%;
+        grid-template-columns: 75% 25%;
         grid-template-rows: auto;
         justify-items: stretch;
         gap: 0rem;
+        border: solid;
         padding: 10px;
+        margin: 15px;
         /* Add padding to the container */
         box-sizing: border-box;
         /* Include padding in sizes */
