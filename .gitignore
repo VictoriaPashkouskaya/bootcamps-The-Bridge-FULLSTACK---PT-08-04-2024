@@ -1,0 +1,43 @@
+# Временные файлы
+*~
+
+# Файлы Vim
+*.swp
+
+# Журналы и временные файлы данных
+*.log
+*.tmp
+
+# Файлы macOS
+.DS_Store
+
+# Системные файлы npm и yarn
+/node_modules
+/yarn-error.log
+npm-debug.log*
+
+# Файлы сборки и временные папки
+/dist
+/.idea
+/.vscode
+/.sass-cache
+/.pytest_cache
+
+# Файлы настроек и переменных окружения
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Файлы конфигурации
+config.js
+config.json
+*.config.js
+
+# Файлы локализации и компиляции
+*.mo
+*.pot
+*.pyc
+
