@@ -31,10 +31,6 @@ npm-debug.log*
 .env.test
 .env.production
 
-# Файлы конфигурации
-config.js
-config.json
-*.config.js
 
 # Файлы локализации и компиляции
 *.mo
